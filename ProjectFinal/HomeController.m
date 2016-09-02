@@ -6,13 +6,13 @@
 //  Copyright © 2016 Codelko. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeController.h"
 
-@interface ViewController ()
+@interface HomeController ()
 
 @end
 
-@implementation ViewController
+@implementation HomeController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

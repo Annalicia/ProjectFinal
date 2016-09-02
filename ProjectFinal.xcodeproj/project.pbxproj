@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		31D8403D1D78FB7800749D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D8403C1D78FB7800749D20 /* main.m */; };
 		31D840401D78FB7800749D20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D8403F1D78FB7800749D20 /* AppDelegate.m */; };
-		31D840431D78FB7800749D20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D840421D78FB7800749D20 /* ViewController.m */; };
+		31D840431D78FB7800749D20 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D840421D78FB7800749D20 /* HomeController.m */; };
 		31D840461D78FB7800749D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D840441D78FB7800749D20 /* Main.storyboard */; };
 		31D840491D78FB7800749D20 /* ProjectFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31D840471D78FB7800749D20 /* ProjectFinal.xcdatamodeld */; };
 		31D8404B1D78FB7800749D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D8404A1D78FB7800749D20 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		31D8403C1D78FB7800749D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31D8403E1D78FB7800749D20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31D8403F1D78FB7800749D20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		31D840411D78FB7800749D20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		31D840421D78FB7800749D20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		31D840411D78FB7800749D20 /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		31D840421D78FB7800749D20 /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 		31D840451D78FB7800749D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31D840481D78FB7800749D20 /* ProjectFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProjectFinal.xcdatamodel; sourceTree = "<group>"; };
 		31D8404A1D78FB7800749D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		31D8403A1D78FB7800749D20 /* ProjectFinal */ = {
 			isa = PBXGroup;
 			children = (
-				31D8403E1D78FB7800749D20 /* AppDelegate.h */,
-				31D8403F1D78FB7800749D20 /* AppDelegate.m */,
-				31D840411D78FB7800749D20 /* ViewController.h */,
-				31D840421D78FB7800749D20 /* ViewController.m */,
+				31D840561D7907CA00749D20 /* Controllers */,
+				31D840551D7907C100749D20 /* Main */,
 				31D840441D78FB7800749D20 /* Main.storyboard */,
 				31D8404A1D78FB7800749D20 /* Assets.xcassets */,
 				31D8404C1D78FB7800749D20 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				31D8403C1D78FB7800749D20 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31D840551D7907C100749D20 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				31D8403E1D78FB7800749D20 /* AppDelegate.h */,
+				31D8403F1D78FB7800749D20 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		31D840561D7907CA00749D20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31D840411D78FB7800749D20 /* HomeController.h */,
+				31D840421D78FB7800749D20 /* HomeController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D840431D78FB7800749D20 /* ViewController.m in Sources */,
+				31D840431D78FB7800749D20 /* HomeController.m in Sources */,
 				31D840401D78FB7800749D20 /* AppDelegate.m in Sources */,
 				31D840491D78FB7800749D20 /* ProjectFinal.xcdatamodeld in Sources */,
 				31D8403D1D78FB7800749D20 /* main.m in Sources */,
