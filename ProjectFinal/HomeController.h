@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cellPayment.h"
+#import "WebServices.h"
+#import "Declarations.h"
 
 @interface HomeController : UIViewController
-@property (strong, nonatomic) IBOutlet UIButton *btnAddPay;
-
-- (IBAction)addPay:(id)sender;
+@property (strong, nonatomic) IBOutlet UITableView *tablePayment;
 
 @end
 

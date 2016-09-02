@@ -7,13 +7,15 @@
 //
 
 #import "AppDelegate.h"
-@import CoreLocation;
+#import "OCMapperConfig.h"
+
+/*@import CoreLocation;
 @import SystemConfiguration;
 @import AVFoundation;
 @import ImageIO;
 
 #import <Pushwoosh/PushNotificationManager.h>
-
+*/
 @interface AppDelegate ()
 
 @end
@@ -27,7 +29,7 @@
     
     //-----------PUSHWOOSH PART-----------
     // set custom delegate for push handling, in our case - view controller
-    PushNotificationManager * pushManager = [PushNotificationManager pushManager];
+    /*PushNotificationManager * pushManager = [PushNotificationManager pushManager];
     pushManager.delegate = self;
     
     // handling push on app start
@@ -38,7 +40,7 @@
     
     // register for push notifications!
     [[PushNotificationManager pushManager] registerForPushNotifications];
-    
+    */
     return YES;
 }
 
@@ -145,7 +147,7 @@
         }
     }
 }
-
+/*
 // system push notification registration success callback, delegate to pushManager
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
     [[PushNotificationManager pushManager] handlePushRegistration:deviceToken];
@@ -163,6 +165,6 @@
 
 - (void) onPushAccepted:(PushNotificationManager *)pushManager withNotification:(NSDictionary *)pushNotification onStart:(BOOL)onStart {
     NSLog(@"Push notification received");
-}
+}*/
 
 @end
