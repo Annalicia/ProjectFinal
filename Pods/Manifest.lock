@@ -1,0 +1,22 @@
+PODS:
+  - Digits (2.4.0):
+    - TwitterCore (= 2.4.0)
+  - Fabric (1.6.8)
+  - Pushwoosh (4.1.0)
+  - TwitterCore (2.4.0):
+    - Fabric
+
+DEPENDENCIES:
+  - Digits
+  - Fabric
+  - Pushwoosh
+
+SPEC CHECKSUMS:
+  Digits: 8173fa5420d64bf490bade840e6bc36b74537d6c
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  Pushwoosh: 42e4b32a8d5cd70ff8b595cdee98385be9e1a362
+  TwitterCore: a139904c80805ad3dde9eef1100704f96f646d1d
+
+PODFILE CHECKSUM: 80ce62cd65ab855f0c916c5c6988053eb102369b
+
+COCOAPODS: 1.0.1
