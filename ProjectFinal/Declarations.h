@@ -10,8 +10,8 @@
 #import "SBJson.h"
 #import "ObjectMapper.h"
 #import "ObjectResponse.h"
-//#import "Coord.h"
-//#import "MainObject.h"
+#import "PaymentsResponse.h"
+#import "Payment.h"
 #import "Parser.h"
 
 //Debug
@@ -19,6 +19,7 @@
 #define print(x)            if(nDebugEnable){(x);}
 
 extern NSDictionary         *mjsonPayments;
+extern NSString         *userID;
 @interface Declarations : NSObject
 
 @end

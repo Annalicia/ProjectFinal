@@ -34,6 +34,14 @@
 		311840C21D7949B100C489C5 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 311840C11D7949B100C489C5 /* Parser.m */; };
 		311840C61D794A1200C489C5 /* ObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 311840C51D794A1200C489C5 /* ObjectResponse.m */; };
 		311840C91D794B2300C489C5 /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 311840C81D794B2300C489C5 /* OCMapperConfig.m */; };
+		311840D01D79F1FC00C489C5 /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = 311840CF1D79F1FC00C489C5 /* Payment.m */; };
+		311840DB1D7A261A00C489C5 /* AddPaymentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311840DA1D7A261A00C489C5 /* AddPaymentController.m */; };
+		3149CE1B1D7A62A100845BEB /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3149CE1A1D7A62A100845BEB /* LoginController.m */; };
+		317E91DF1D7A6EE500AA6E93 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317E91DB1D7A6EE500AA6E93 /* Fabric.framework */; };
+		317E91E01D7A6EE500AA6E93 /* DigitsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317E91DC1D7A6EE500AA6E93 /* DigitsKit.framework */; };
+		317E91E11D7A6EE500AA6E93 /* DigitsKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 317E91DD1D7A6EE500AA6E93 /* DigitsKitResources.bundle */; };
+		317E91E21D7A6EE500AA6E93 /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317E91DE1D7A6EE500AA6E93 /* TwitterCore.framework */; };
+		317E91E51D7A851900AA6E93 /* PaymentsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 317E91E41D7A851900AA6E93 /* PaymentsResponse.m */; };
 		31D8403D1D78FB7800749D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D8403C1D78FB7800749D20 /* main.m */; };
 		31D840401D78FB7800749D20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D8403F1D78FB7800749D20 /* AppDelegate.m */; };
 		31D840431D78FB7800749D20 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31D840421D78FB7800749D20 /* HomeController.m */; };
@@ -108,6 +116,18 @@
 		311840C51D794A1200C489C5 /* ObjectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectResponse.m; sourceTree = "<group>"; };
 		311840C71D794B2300C489C5 /* OCMapperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapperConfig.h; sourceTree = "<group>"; };
 		311840C81D794B2300C489C5 /* OCMapperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapperConfig.m; sourceTree = "<group>"; };
+		311840CE1D79F1FC00C489C5 /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		311840CF1D79F1FC00C489C5 /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.m; sourceTree = "<group>"; };
+		311840D91D7A261A00C489C5 /* AddPaymentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPaymentController.h; sourceTree = "<group>"; };
+		311840DA1D7A261A00C489C5 /* AddPaymentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPaymentController.m; sourceTree = "<group>"; };
+		3149CE191D7A62A100845BEB /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		3149CE1A1D7A62A100845BEB /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		317E91DB1D7A6EE500AA6E93 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		317E91DC1D7A6EE500AA6E93 /* DigitsKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DigitsKit.framework; sourceTree = "<group>"; };
+		317E91DD1D7A6EE500AA6E93 /* DigitsKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DigitsKitResources.bundle; path = DigitsKit.framework/Versions/A/Resources/DigitsKitResources.bundle; sourceTree = "<group>"; };
+		317E91DE1D7A6EE500AA6E93 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		317E91E31D7A851900AA6E93 /* PaymentsResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentsResponse.h; sourceTree = "<group>"; };
+		317E91E41D7A851900AA6E93 /* PaymentsResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentsResponse.m; sourceTree = "<group>"; };
 		31D840381D78FB7800749D20 /* ProjectFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D8403C1D78FB7800749D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		31D8403E1D78FB7800749D20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -119,7 +139,7 @@
 		31D8404A1D78FB7800749D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31D8404D1D78FB7800749D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31D8404F1D78FB7800749D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31D840591D791FE500749D20 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		31D840591D791FE500749D20 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		31D8405B1D79256200749D20 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		31D8405D1D79257200749D20 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		416BC5852DDCF2EA7622E211 /* Pods_ProjectFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProjectFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,8 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				31D8405E1D79257200749D20 /* libstdc++.tbd in Frameworks */,
+				317E91E21D7A6EE500AA6E93 /* TwitterCore.framework in Frameworks */,
 				31D8405C1D79256200749D20 /* libz.tbd in Frameworks */,
 				99F516E6EA02D9E40DFA2042 /* Pods_ProjectFinal.framework in Frameworks */,
+				317E91DF1D7A6EE500AA6E93 /* Fabric.framework in Frameworks */,
+				317E91E01D7A6EE500AA6E93 /* DigitsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +283,12 @@
 		311840C31D794A0100C489C5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				317E91E31D7A851900AA6E93 /* PaymentsResponse.h */,
+				317E91E41D7A851900AA6E93 /* PaymentsResponse.m */,
 				311840C41D794A1200C489C5 /* ObjectResponse.h */,
 				311840C51D794A1200C489C5 /* ObjectResponse.m */,
+				311840CE1D79F1FC00C489C5 /* Payment.h */,
+				311840CF1D79F1FC00C489C5 /* Payment.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -269,6 +296,10 @@
 		31D8402F1D78FB7800749D20 = {
 			isa = PBXGroup;
 			children = (
+				317E91DB1D7A6EE500AA6E93 /* Fabric.framework */,
+				317E91DC1D7A6EE500AA6E93 /* DigitsKit.framework */,
+				317E91DD1D7A6EE500AA6E93 /* DigitsKitResources.bundle */,
+				317E91DE1D7A6EE500AA6E93 /* TwitterCore.framework */,
 				31D8403A1D78FB7800749D20 /* ProjectFinal */,
 				31D840391D78FB7800749D20 /* Products */,
 				64DC670333A9BDC01E076311 /* Pods */,
@@ -333,6 +364,10 @@
 			children = (
 				31D840411D78FB7800749D20 /* HomeController.h */,
 				31D840421D78FB7800749D20 /* HomeController.m */,
+				311840D91D7A261A00C489C5 /* AddPaymentController.h */,
+				311840DA1D7A261A00C489C5 /* AddPaymentController.m */,
+				3149CE191D7A62A100845BEB /* LoginController.h */,
+				3149CE1A1D7A62A100845BEB /* LoginController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -369,6 +404,7 @@
 				31D840361D78FB7800749D20 /* Resources */,
 				A89D9F14DBBE64CBFDD19A30 /* [CP] Embed Pods Frameworks */,
 				BC8FA400431F16272825D267 /* [CP] Copy Pods Resources */,
+				317E91DA1D7A6ECA00AA6E93 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -424,6 +460,7 @@
 			files = (
 				311840701D793C1400C489C5 /* cellPayment.xib in Resources */,
 				31D8404E1D78FB7800749D20 /* LaunchScreen.storyboard in Resources */,
+				317E91E11D7A6EE500AA6E93 /* DigitsKitResources.bundle in Resources */,
 				31D8404B1D78FB7800749D20 /* Assets.xcassets in Resources */,
 				31D8405A1D791FE500749D20 /* Podfile in Resources */,
 				31D840461D78FB7800749D20 /* Main.storyboard in Resources */,
@@ -433,6 +470,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		317E91DA1D7A6ECA00AA6E93 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 50ee748b92deefdb23f44b9476df8d2391bf279f 5688fcd2e7da8a0bd9c10de51acca9208ae77d7bd83e9c96844f7b39ec08740d";
+		};
 		76F6F56B9E60A1C2E06FF10E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +544,7 @@
 				311840AF1D79482B00C489C5 /* SBJsonParser.m in Sources */,
 				311840901D79481A00C489C5 /* CommonLoggingProvider.m in Sources */,
 				3118406F1D793C1400C489C5 /* cellPayment.m in Sources */,
+				317E91E51D7A851900AA6E93 /* PaymentsResponse.m in Sources */,
 				311840B71D79482B00C489C5 /* SBJsonTokeniser.m in Sources */,
 				311840921D79481A00C489C5 /* ObjectMapper.m in Sources */,
 				311840B31D79482B00C489C5 /* SBJsonStreamParserState.m in Sources */,
@@ -508,11 +559,14 @@
 				311840911D79481A00C489C5 /* InCodeMappingProvider.m in Sources */,
 				311840B51D79482B00C489C5 /* SBJsonStreamWriterAccumulator.m in Sources */,
 				311840C91D794B2300C489C5 /* OCMapperConfig.m in Sources */,
+				3149CE1B1D7A62A100845BEB /* LoginController.m in Sources */,
 				31D8403D1D78FB7800749D20 /* main.m in Sources */,
 				311840B91D79482B00C489C5 /* SBJsonWriter.m in Sources */,
 				311840BC1D79488C00C489C5 /* Declarations.m in Sources */,
 				311840931D79481A00C489C5 /* ObjectMappingInfo.m in Sources */,
 				311840B21D79482B00C489C5 /* SBJsonStreamParserAdapter.m in Sources */,
+				311840DB1D7A261A00C489C5 /* AddPaymentController.m in Sources */,
+				311840D01D79F1FC00C489C5 /* Payment.m in Sources */,
 				311840C61D794A1200C489C5 /* ObjectResponse.m in Sources */,
 				311840B81D79482B00C489C5 /* SBJsonUTF8Stream.m in Sources */,
 			);
@@ -627,8 +681,13 @@
 			baseConfigurationReference = 23A9E22CF32AF6F64DAD34FC /* Pods-ProjectFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ProjectFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codelko.projectfinal2016;
@@ -642,8 +701,13 @@
 			baseConfigurationReference = 041545D0C3EE5F7AA5800832 /* Pods-ProjectFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ProjectFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codelko.projectfinal2016;

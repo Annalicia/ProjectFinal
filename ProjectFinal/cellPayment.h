@@ -11,5 +11,6 @@
 @interface cellPayment : UITableViewCell
 @property (strong, nonatomic) IBOutlet UILabel *amountLbl;
 @property (strong, nonatomic) IBOutlet UILabel *descriptionLbl;
+@property (strong, nonatomic) IBOutlet UILabel *dateLbl;
 
 @end

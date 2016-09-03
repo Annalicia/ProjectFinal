@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PaymentsResponse.h"
+#import "Payment.h"
 
 @interface ObjectResponse : NSObject
-@property (nonatomic, strong) NSString *name;
+
+@property (nonatomic, strong) PaymentsResponse *payments;
+@property (nonatomic, strong) NSString *type;
+@property (nonatomic, strong) NSString *msg;
+
 @end

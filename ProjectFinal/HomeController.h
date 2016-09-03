@@ -10,9 +10,12 @@
 #import "cellPayment.h"
 #import "WebServices.h"
 #import "Declarations.h"
+#import "ObjectMapper.h"
 
 @interface HomeController : UIViewController
 @property (strong, nonatomic) IBOutlet UITableView *tablePayment;
+@property (strong, nonatomic) IBOutlet UINavigationItem *btnAddPaymen;
+- (IBAction)addPayment:(id)sender;
 
 @end
 

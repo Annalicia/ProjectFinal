@@ -9,6 +9,7 @@
 #import "Declarations.h"
 
 NSDictionary *mjsonPayments;
+NSString *userID;
 @implementation Declarations
 
 @end

@@ -21,11 +21,60 @@
     NSMutableDictionary *diData = [[NSMutableDictionary alloc] init];
     NSString  *stData           = [diData JSONRepresentation];
     
-    NSString *stURL = [nURLMain stringByAppendingString:@"annalicia"];
-    //stURL           = [stURL stringByAppendingString:@"annalicia"];
+    NSString *stURL = [nURLMain stringByAppendingString:userID];
     
     return [self sendPost:stURL forData:stData andMode:nGET];
 }
+
++ (NSDictionary *)addPaymentsForUser:(NSString *)username andName:(NSString *)name andAmount:(NSString *)amount andDate:(NSString *)date {
+    
+    NSMutableDictionary *diData = [[NSMutableDictionary alloc] init];
+    NSString  *stData           = [diData JSONRepresentation];
+    
+    NSString *stURL = [nURLMain stringByAppendingString:userID];
+    stURL           = [stURL stringByAppendingString:@"/add?date="];
+    stURL           = [stURL stringByAppendingString:date];
+    stURL           = [stURL stringByAppendingString:@"&title="];
+    stURL           = [stURL stringByAppendingString:name];
+    stURL           = [stURL stringByAppendingString:@"&amount="];
+    stURL           = [stURL stringByAppendingString:amount];
+    
+    
+    return [self sendPost:stURL forData:stData andMode:nGET];
+}
+
++ (NSDictionary *)editPaymentsForUser:(NSString *)username andName:(NSString *)name andAmount:(NSString *)amount andDate:(NSString *)date andIdPayment:(NSString *)id{
+    
+    NSMutableDictionary *diData = [[NSMutableDictionary alloc] init];
+    NSString  *stData           = [diData JSONRepresentation];
+    
+    NSString *stURL = [nURLMain stringByAppendingString:userID];
+    stURL           = [stURL stringByAppendingString:@"/edit?date="];
+    stURL           = [stURL stringByAppendingString:date];
+    stURL           = [stURL stringByAppendingString:@"&title="];
+    stURL           = [stURL stringByAppendingString:name];
+    stURL           = [stURL stringByAppendingString:@"&amount="];
+    stURL           = [stURL stringByAppendingString:amount];
+    stURL           = [stURL stringByAppendingString:@"&id="];
+    stURL           = [stURL stringByAppendingString:id];
+    
+    
+    return [self sendPost:stURL forData:stData andMode:nGET];
+}
+
++ (NSDictionary *)deletePayment:(NSString *)id{
+
+    NSMutableDictionary *diData = [[NSMutableDictionary alloc] init];
+    NSString  *stData           = [diData JSONRepresentation];
+    
+    NSString *stURL = [nURLMain stringByAppendingString:userID];
+    stURL           = [stURL stringByAppendingString:@"/delete?id="];
+    stURL           = [stURL stringByAppendingString:id];
+    
+    return [self sendPost:stURL forData:stData andMode:nGET];
+
+}
+
 
 //
 

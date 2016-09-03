@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "OCMapperConfig.h"
+#import <Fabric/Fabric.h>
+#import <DigitsKit/DigitsKit.h>
+
 
 /*@import CoreLocation;
 @import SystemConfiguration;
@@ -41,6 +44,9 @@
     // register for push notifications!
     [[PushNotificationManager pushManager] registerForPushNotifications];
     */
+    
+    [Fabric with:@[[Digits class]]];
+
     return YES;
 }
 

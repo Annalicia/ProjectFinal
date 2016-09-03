@@ -6,4 +6,5 @@ target 'ProjectFinal' do
 pod 'Pushwoosh'
 pod 'Fabric'
 pod 'Digits'
+pod 'TwitterCore'
 end
