@@ -31,13 +31,6 @@
             
             NSString *msg = [NSString stringWithFormat:@"Phone number: %@", session.phoneNumber];
             
-            /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"You are logged in!"
-                                                            message:msg
-                                                           delegate:nil
-                                                  cancelButtonTitle:@"OK"
-                                                  otherButtonTitles:nil];
-            [alert show];*/
-            
             [self performSegueWithIdentifier:@"LoginSuccess" sender:self];
             //HomeController *homeController = [[HomeController alloc] init];
 
@@ -49,6 +42,7 @@
             NSLog(@"Authentication error: %@", error.localizedDescription);
         }
     }];
+
     authButton.center = self.view.center;
     [self.view addSubview:authButton];
 
